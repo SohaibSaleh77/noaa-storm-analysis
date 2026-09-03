@@ -1,0 +1,19 @@
+[project]
+name = "noaa-storm-analysis"
+version = "1.0.0"
+description = "Analysis of NOAA Storm Events and Climate Data"
+requires-python = ">=3.10"
+dependencies = [
+    "requests",
+    "beautifulsoup4",
+    "folium",
+    "seaborn",
+    "matplotlib",
+    "numpy",
+    "pandas",
+    "scipy",
+    "python-dotenv",
+]
+
+[tool.setuptools]
+packages = ["src"]
