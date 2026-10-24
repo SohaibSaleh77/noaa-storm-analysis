@@ -1,6 +1,1 @@
-# NOAA Storm Analysis
-
-## Setup
-1. Ensure you have Python 3.10+ installed.
-2. Install dependencies: `pip install -r requirements.txt`
-3. Run pipeline: `bash run.sh`
+Python-based data analysis project that processes and analyzes severe storm data from NOAA (National Oceanic and Atmospheric Administration). The project is structured with a modular src directory for core logic and a scripts directory for executable workflows, and it can be run end-to-end via a single run.sh
